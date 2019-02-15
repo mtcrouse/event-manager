@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.0'
 
+# webpack
+gem 'webpacker', '>= 4.0.x'
 # for respond_with:
 gem 'responders'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

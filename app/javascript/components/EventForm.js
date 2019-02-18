@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { isEmptyObject, validateEvent } from '../helpers/helpers';
+import { formatDate, isEmptyObject, validateEvent } from '../helpers/helpers';
 import Pikaday from 'pikaday';
 import 'pikaday/css/pikaday.css';
-import { formatDate, isEmptyObject, validateEvent } from '../helpers/helpers';
 
 class EventForm extends React.Component {
   constructor(props) {

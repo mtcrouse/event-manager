@@ -2,7 +2,7 @@
 
 Following this walkthrough: https://hibbard.eu/rails-react-crud-app/
 
-To start server:
+To start rails server:
 ```
 rails s
 ```

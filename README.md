@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Following this walkthrough: https://hibbard.eu/rails-react-crud-app/
 
-Things you may want to cover:
+To start server:
+```
+rails s
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run webpack dev server:
+```
+./bin/webpack-dev-server
+```
